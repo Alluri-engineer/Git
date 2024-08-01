@@ -24,7 +24,7 @@ It is easy to forget which directory you’re in and accidentally write to the w
 **CVS | Subversion | Perforce**
 
 To collaborate with developers on other systems
-![[Pasted image 20240731145401.png]]
+![](Pasted image 20240731145401.png)
 - single server that contains all the versioned files, and a number of clients that check out files from that central place. For many years, this has been the standard for version control.
 - Administrators have fine-grained control over who can do what.
 - **Downsides**
