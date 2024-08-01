@@ -5,7 +5,6 @@
 - **Compare changes** over time using Version Control
 
 ### Local Version Control Systems
-
 version-control method of choice is to copy files into another directory with timestamps.
 - Error prone
 It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to
@@ -18,7 +17,6 @@ It is easy to forget which directory you’re in and accidentally write to the w
 
 ### Centralized Version Control Systems
 **CVS | Subversion | Perforce**
-
 To collaborate with developers on other systems
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731145401.png)
 - single server that contains all the versioned files, and a number of clients that check out files from that central place. For many years, this has been the standard for version control.
@@ -29,7 +27,6 @@ If that server goes down for an hour, then during that hour, nobody can **collab
 
 ### Distributed Version Control Systems
 **Git | Mercurial | Darcs**
-
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731150218.png)
 - fully mirror the repository, including its full history
 - clients don’t just check out the latest snapshot of the files
@@ -38,9 +35,7 @@ If that server goes down for an hour, then during that hour, nobody can **collab
 - Every clone is really a full backup of all the data
 
 ### History of Git
-
 Linux Kernel ( open source software )
-
 Software Changes using patches & archived files 
 Using BitKeeper Tool (Commercial Company) revoked free of charge
 Linux Developer Community & Linus Torvalds Developed their own Tool based on BitKeeper with their own Goals 
@@ -53,12 +48,9 @@ Linux Developer Community & Linus Torvalds Developed their own Tool based on Bit
 #### Git Snapshots
 - Git don’t use **delta-based version control** (“store as a set of files and the changes made to each file over time)
 - Every time you commit, Git take a picture of all the files, stores a reference to that snapshot
-
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731153138.png)
 - To be efficient, if files have not changed, Git doesn’t store the file again.
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731153023.png)
-
-
 * Nearly Every Operation Is Local, like Browsing the History. no problem with network latency. Read simply from local database.
 
 #### Git Has Integrity
@@ -69,18 +61,12 @@ Linux Developer Community & Linus Torvalds Developed their own Tool based on Bit
 - It hard to erase a data.
 
 #### Git States
-
 **Modified   Staged  Committed** 
-
 Modified - File changed , not committed to Database.
-
 Staged - Marked the modified file in current version to go to next Commit Snapshort
-
 Committed - Data is safely stored in Local Database.
-
 Three sections 
 **Working Directory    Staging Area      Git Directory**
-
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731160710.png)
 
 **Working Directory**
@@ -93,20 +79,15 @@ is a file, generally contained in your Git directory, that stores information ab
 stores the metadata and object database for your project
 
 **Basic Git workflow**
-
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731172831.png)
-
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731172854.png)
-
 - modify file In Working Directory. If it was changed since it was checked out but has not been staged, it is modified.
 - selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area. modified and was added to the staging area. it is staged.
 - Commit it, takes files in staging area & Snapshot permanently to git directory.
 
-
 #### Command line
 Run all git commands
 GUI only run partial commands for simplicity.
-
 
 #### Your Identity
 Set User name & Email address 
@@ -125,12 +106,10 @@ Set User name & Email address
 `color.interactive=auto`
 `color.diff=auto`
 `...”`
-
 `$ git config user.name`
 `John Doe`
 
 #### Local Git Repository
-
 Add directory & use `git init`
 `Git add` - track the specific file
 `Git commit -m ‘message’` 
