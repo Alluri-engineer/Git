@@ -15,6 +15,7 @@ It is easy to forget which directory you’re in and accidentally write to the w
 
 ### Centralized Version Control Systems
 **CVS | Subversion | Perforce**
+
 To collaborate with developers on other systems
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731145401.png)
 - single server that contains all the versioned files, and a number of clients that check out files from that central place. For many years, this has been the standard for version control.
