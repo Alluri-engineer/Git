@@ -10,7 +10,7 @@ version-control method of choice is to copy files into another directory with ti
 - Error prone
 It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to
 
-![[Pasted image 20240731143905.png]]
+![Paste image 20]
 
 - local VCSs has a simple database that kept all the changes to files under revision control.
 - GNU **Revision Control System** automates the storing, retrieval, logging, identification, and merging of revisions.
