@@ -69,10 +69,8 @@ Three sections
 
 **Working Directory**
 Single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
-
 **Staging Area**
 is a file, generally contained in your Git directory, that stores information about what will go into your next commit.
-
 **Git Repository**
 stores the metadata and object database for your project
 
