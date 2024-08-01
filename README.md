@@ -30,9 +30,7 @@ If that server goes down for an hour, then during that hour, nobody can **collab
 ### Distributed Version Control Systems
 **Git | Mercurial | Darcs**
 
-![[Pasted image 20240731150218.png]
-
-
+![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731150218.png)
 - fully mirror the repository, including its full history
 - clients don’t just check out the latest snapshot of the files
 - They fully mirror the repository, including its full history.
