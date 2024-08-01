@@ -89,6 +89,7 @@ GUI only run partial commands for simplicity.
 ## Your Identity
 Set User name & Email address 
 `$ git config --global user.name "John Doe"`
+
 `$ git config --global user.email johndoe@example.com”`
 
 **Option EMacs Editor**
@@ -96,19 +97,29 @@ Set User name & Email address
 
 ## Checking Your Settings
 `“$ git config --list`
+
 `user.name=John Doe`
+
 `user.email=johndoe@example.com`
+
 `color.status=auto`
+
 `color.branch=auto`
+
 `color.interactive=auto`
+
 `color.diff=auto`
+
 `...”`
+
 `$ git config user.name`
+
 `John Doe`
 
 ## Local Git Repository
 Add directory & use `git init`
 `Git add` - track the specific file
+
 `Git commit -m ‘message’` 
 
 ## Clone Git Repository
