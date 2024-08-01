@@ -54,9 +54,9 @@ Linux Developer Community & Linus Torvalds Developed their own Tool based on Bit
 - Git don’t use **delta-based version control** (“store as a set of files and the changes made to each file over time)
 - Every time you commit, Git take a picture of all the files, stores a reference to that snapshot
 
-![[Pasted image 20240731153138.png]]
+![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731153138.png)
 - To be efficient, if files have not changed, Git doesn’t store the file again.
-![[Pasted image 20240731153023.png]]
+![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731153023.png)
 
 
 * Nearly Every Operation Is Local, like Browsing the History. no problem with network latency. Read simply from local database.
@@ -81,7 +81,7 @@ Committed - Data is safely stored in Local Database.
 Three sections 
 **Working Directory    Staging Area      Git Directory**
 
-![[Pasted image 20240731160710.png]]
+![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731160710.png)
 
 **Working Directory**
 Single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
@@ -94,9 +94,9 @@ stores the metadata and object database for your project
 
 **Basic Git workflow**
 
-![[Pasted image 20240731172831.png]]
+![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731172831.png)
 
-![[Pasted image 20240731172854.png]]
+![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731172854.png)
 
 - modify file In Working Directory. If it was changed since it was checked out but has not been staged, it is modified.
 - selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area. modified and was added to the staging area. it is staged.
@@ -149,7 +149,7 @@ Transfer Protocol
 Remember that each file in your working directory can be in one of two states: tracked or untracked.
 - Tracked files are files that were in the last snapshot, as well as any newly staged files; they can be unmodified, modified, or staged.
 - In short, tracked files are files that Git knows about.
-![[Pasted image 20240731170131.png]]
+![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731170131.png)
 
 #### Check Status
 `git status`
