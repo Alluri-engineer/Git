@@ -5,6 +5,7 @@
 - **Compare changes** over time using Version Control
 
 ### Local Version Control Systems
+![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731143905.png)
 
 version-control method of choice is to copy files into another directory with timestamps.
 - Error prone
