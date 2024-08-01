@@ -10,7 +10,7 @@ version-control method of choice is to copy files into another directory with ti
 - Error prone
 It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to
 
-![[https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731143905.png]]
+!(cheese)[[https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731143905.png]]
 
 ![[Pasted image 20240731143905.png]]
 
