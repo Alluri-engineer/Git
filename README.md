@@ -33,7 +33,7 @@ If that server goes down for an hour, then during that hour, nobody can **collab
 - any of the client repositories can be copied back up to the server to restore it.
 - Every clone is really a full backup of all the data
 
-### History of Git
+## History of Git
 Linux Kernel ( open source software )
 Software Changes using patches & archived files 
 Using BitKeeper Tool (Commercial Company) revoked free of charge
@@ -44,7 +44,7 @@ Linux Developer Community & Linus Torvalds Developed their own Tool based on Bit
 - Fully Distributed
 - Efficient with large projects
 
-### Git Snapshots
+## Git Snapshots
 - Git don’t use **delta-based version control** (“store as a set of files and the changes made to each file over time)
 - Every time you commit, Git take a picture of all the files, stores a reference to that snapshot
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731153138.png)
@@ -52,14 +52,14 @@ Linux Developer Community & Linus Torvalds Developed their own Tool based on Bit
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731153023.png)
 * Nearly Every Operation Is Local, like Browsing the History. no problem with network latency. Read simply from local database.
 
-### Git Has Integrity
+## Git Has Integrity
 - **checksummed** before it is stored, can’t lose information in transit or get file corruption without Git being able to detect it. Using **SHA-1 hash**
 - Git stores everything in its database not by file name but by the hash value of its contents.
-### Git only add data
+## Git only add data
 - Any action, git only add data to its Database. 
 - It hard to erase a data.
 
-### Git States
+## Git States
 **Modified   Staged  Committed** 
 Modified - File changed , not committed to Database.
 Staged - Marked the modified file in current version to go to next Commit Snapshort
@@ -82,11 +82,11 @@ stores the metadata and object database for your project
 - selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area. modified and was added to the staging area. it is staged.
 - Commit it, takes files in staging area & Snapshot permanently to git directory.
 
-### Command line
+## Command line
 Run all git commands
 GUI only run partial commands for simplicity.
 
-### Your Identity
+## Your Identity
 Set User name & Email address 
 `$ git config --global user.name "John Doe"`
 `$ git config --global user.email johndoe@example.com”`
@@ -94,7 +94,7 @@ Set User name & Email address
 **Option EMacs Editor**
 `“$ git config --global core.editor emacs”`
 
-### Checking Your Settings
+## Checking Your Settings
 `“$ git config --list`
 `user.name=John Doe`
 `user.email=johndoe@example.com`
@@ -106,12 +106,12 @@ Set User name & Email address
 `$ git config user.name`
 `John Doe`
 
-### Local Git Repository
+## Local Git Repository
 Add directory & use `git init`
 `Git add` - track the specific file
 `Git commit -m ‘message’` 
 
-### Clone Git Repository
+## Clone Git Repository
 `git clone <URL>`
 
 **Clone to newfolder**
@@ -121,13 +121,13 @@ Transfer Protocol
 - HTTP Protocol
 - SSH Protocol
 
-### Recording Changes to the Repository
+## Recording Changes to the Repository
 Remember that each file in your working directory can be in one of two states: tracked or untracked.
 - Tracked files are files that were in the last snapshot, as well as any newly staged files; they can be unmodified, modified, or staged.
 - In short, tracked files are files that Git knows about.
 ![](https://github.com/Alluri-engineer/Git/blob/main/Images/Pasted%20image%2020240731170131.png)
 
-### Check Status
+## Check Status
 `git status`
 
  
